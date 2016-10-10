@@ -26,6 +26,7 @@ $erro= new \error\erro();
 <style>
        body {
            background-image: url(midia/backgraund.png);
+           color: orange;
        }
     </style>
 

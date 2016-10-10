@@ -6,8 +6,10 @@
  * Time: 08:23
  */
 include("Config.php");
+include("Controller/erro.php");
 
 $conf= new \cfg\Config();
+$erro= new \error\erro();
 
 
 ?>

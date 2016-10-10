@@ -31,8 +31,8 @@ $conf= new \cfg\Config();
 </head>
 
 <body>
-   <?php include('viwer/top.php'); ?>
-   <?php include('viwer/body.php'); ?>
-   <?php include('viwer/botton.php'); ?>
+   <?php include('viwer/top.php');  #chama o top ?>
+   <?php include('viwer/body.php'); #chama o corpo ?>
+   <?php include('viwer/botton.php'); #chama o roda-pé ?>
 </body>
 </html>

@@ -23,7 +23,7 @@ class erro
     public function ErroLogin(){
         $erro = '<div class="' . 'alert-danger"'. 'style=" padding: 5px 0px 10px 0px; margin: 7% 25%; border-top-right-radius:5px;  border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px">
 <center><h1>&xcirc; Não foi possivel fazer o login no sistema 👌</h1>
-<sub >Usuário ou Senha errados...</sub>
+<sub >Usuário ou Senha incorretos...</sub>
 </center>
 </div> ';
         echo $erro;

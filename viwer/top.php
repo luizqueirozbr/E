@@ -3,15 +3,19 @@
 <div class="container"> <!-- inicio conteiner base !-->
 
     <div class="col-md-8"> <!---inicio controle center-!-->
-        <div class="col-md-6">
+        <div class="col-md-3">
             <!--  Inicio Div title  !-->
            <!-- <img src="midia/ecorp.png" width="10%" height="10%" class="img-circle" style="position: static;"> !-->
             <h1 class="text-md-center"> <?php echo $conf->NomeSite; ?> </h1>
             <!--  Fim Div title  !-->
         </div>
 
+<?php
+    $ativo = $auth->ativo();
+        if ($ativo == true){
 
-        <div class="col-md-6"><!---inicio Login!-->
+        printf('
+        <div class='. '"col-md-6/"><!---inicio Login!-->
 
             <form action="index.php" method="get">
                 <table>
@@ -37,9 +41,16 @@
 
                     </tr>
                 </table>
-            <!--fim login!--></div>
+            <!--fim login!-->
+        </div>
+        ');}else{
+
+            echo $erro->AvisoLoginOff();
+        }
+?>
+
     </div><!-- fim controle center!-->
-    <div class="col-md-4">
+    <div class="col-md-3">
 
         <?php echo $conf->GetHora()?>
 

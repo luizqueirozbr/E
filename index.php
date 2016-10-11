@@ -7,9 +7,11 @@
  */
 include("Config.php");
 include("Controller/erro.php");
+include("model/auth.php");
 
 $conf= new \cfg\Config();
 $erro= new \error\erro();
+$auth = new \auth\auth();
 
 
 ?>
@@ -37,5 +39,7 @@ $erro= new \error\erro();
    <?php include('viwer/top.php');  #chama o top ?>
    <?php include('viwer/body.php'); #chama o corpo ?>
    <?php include('viwer/botton.php'); #chama o roda-pé ?>
+
+
 </body>
 </html>

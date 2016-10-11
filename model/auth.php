@@ -12,4 +12,13 @@ namespace auth;
 class auth
 {
 
+    /**
+     * @return bool
+     */
+    public function ativo(){
+
+        return true;
+
+    }
+
 }

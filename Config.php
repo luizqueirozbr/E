@@ -24,9 +24,9 @@ class Config
         $realHora = date("h:i:s");
         $Periodo = date("a");
         if ($Periodo == "am") {
-            echo "Olá Bom Dia ! " . $realtime . " </br> " . $realHora;
+            echo " 🕒 🙉 " . $realtime . " </br> " . $realHora;
         } else if ($Periodo == "pm") {
-            echo "Olá Boa Tarde ! " . $realtime . " </br> " . $realHora;
+            echo " 🕘 🙈  " . $realtime . " </br> " . $realHora;
 
         }
     }
@@ -35,6 +35,6 @@ class Config
         {
             $Direitos = "Evil Corp " . date("Y");
 
-            echo "Todos os direitos reservados á " . "<b>" . $Direitos . "</b>";
+            echo "Todos os direitos reservados á " . "<b>" . $Direitos . "</b> 💀";
         }
 }

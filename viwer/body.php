@@ -1,2 +1,6 @@
-<?php $erro->AlertaDesenvolvimento() ?>
+<?php $erro->AlertaDesenvolvimento();
+
+        $erro->ErroLogin();
+
+?>
 

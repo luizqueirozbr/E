@@ -31,6 +31,14 @@
 
   </div>
 </div>
+<!-- email input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtEmail">E-mail:</label>
+  <div class="col-md-4">
+    <input id="txtPass" name="txtEmail" type="email" placeholder="" class="form-control input-md" required="">
+
+  </div>
+</div>
 
 <!-- Button -->
 <div class="form-group">

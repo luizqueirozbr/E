@@ -1,22 +1,4 @@
 
-<script>
-
-    function Cdst() {
-        Cadastro.style.display='visible';
-    }
-
-</script>
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="container"> <!-- inicio conteiner base !-->
 

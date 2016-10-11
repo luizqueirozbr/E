@@ -27,11 +27,11 @@
       </div>
     </div>
 
-    <div id="push"></div>
+
 </div>
 
 <div id="footer">
     <div class="container">
-
+        <div id="push"><p><?php $conf->SetCorp(); ?></p></div>
     </div>
 </div>

@@ -31,7 +31,10 @@ class Config
         }
     }
 
-        public function GetIp()
+        public function SetCorp()
         {
+            $Direitos = "Evil Corp " . date("Y");
+
+            echo "Todos os direitos reservados á " . "<b>" . $Direitos . "</b>";
         }
 }

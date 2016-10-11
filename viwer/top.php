@@ -42,7 +42,7 @@
     <div class="col-md-4">
 
         <?php echo $conf->GetHora()?>
-        <?php echo $conf->GetIp();?>
+
 
     </div> <!--Infos!-->
 

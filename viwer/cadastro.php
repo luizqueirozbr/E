@@ -8,7 +8,7 @@
 
 ?>
 
-<form class="form-horizontal">
+<form class="form-horizontal" action="viwer/d1r/cadastro_v.php" METHOD="get">
 <fieldset>
 
 <!-- Form Name -->

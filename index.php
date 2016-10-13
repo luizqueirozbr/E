@@ -8,10 +8,12 @@
 include("Config.php");
 include("Controller/erro.php");
 include("model/auth.php");
+include("model/mySql.php");
 
 $conf= new \cfg\Config();
 $erro= new \error\erro();
 $auth = new \auth\auth();
+$banco = new \connect\mySql();
 
 
 ?>
@@ -21,10 +23,10 @@ $auth = new \auth\auth();
 <head>
     <meta charset="UTF-8">
     <title><?php echo $conf->NomeSite;?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 <style>
        body {
            background-image: url(midia/backgraund.png);
